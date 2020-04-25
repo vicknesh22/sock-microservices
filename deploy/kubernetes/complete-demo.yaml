@@ -137,7 +137,7 @@ spec:
           containerPort: 3306
       nodeSelector:
         beta.kubernetes.io/os: linux
-        nodeName=catalogue
+        nodeName: catalogue
 ---
 apiVersion: v1
 kind: Service
@@ -184,7 +184,7 @@ spec:
           readOnlyRootFilesystem: true
       nodeSelector:
         beta.kubernetes.io/os: linux
-        nodeName=catalogue
+        nodeName: catalogue
 ---
 apiVersion: v1
 kind: Service
