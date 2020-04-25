@@ -424,7 +424,7 @@ spec:
         ports:
         - containerPort: 80
       nodeSelector:
-        beta.kubernetes.io/os: linux
+        beta.kubernetes.io/os: default
 ---
 apiVersion: v1
 kind: Service
