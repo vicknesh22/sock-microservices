@@ -35,7 +35,7 @@ spec:
           emptyDir:
             medium: Memory
       nodeSelector:
-        beta.kubernetes.io/os: linux
+        beta.kubernetes.io/os: default
 ---
 apiVersion: v1
 kind: Service
@@ -93,7 +93,7 @@ spec:
           emptyDir:
             medium: Memory
       nodeSelector:
-        beta.kubernetes.io/os: linux
+        beta.kubernetes.io/os: default
 ---
 apiVersion: v1
 kind: Service
@@ -136,7 +136,7 @@ spec:
         - name: mysql
           containerPort: 3306
       nodeSelector:
-        beta.kubernetes.io/os: linux
+        beta.kubernetes.io/os: catalogue
 ---
 apiVersion: v1
 kind: Service
@@ -182,7 +182,7 @@ spec:
               - NET_BIND_SERVICE
           readOnlyRootFilesystem: true
       nodeSelector:
-        beta.kubernetes.io/os: linux
+        beta.kubernetes.io/os: catalogue
 ---
 apiVersion: v1
 kind: Service
@@ -228,7 +228,7 @@ spec:
               - all
           readOnlyRootFilesystem: true
       nodeSelector:
-        beta.kubernetes.io/os: linux
+        beta.kubernetes.io/os: catalogue
 ---
 apiVersion: v1
 kind: Service
@@ -283,7 +283,7 @@ spec:
           emptyDir:
             medium: Memory
       nodeSelector:
-        beta.kubernetes.io/os: linux
+        beta.kubernetes.io/os: default
 ---
 apiVersion: v1
 kind: Service
@@ -341,7 +341,7 @@ spec:
           emptyDir:
             medium: Memory
       nodeSelector:
-        beta.kubernetes.io/os: linux
+        beta.kubernetes.io/os: default
 ---
 apiVersion: v1
 kind: Service
@@ -387,7 +387,7 @@ spec:
               - NET_BIND_SERVICE
           readOnlyRootFilesystem: true
       nodeSelector:
-        beta.kubernetes.io/os: linux
+        beta.kubernetes.io/os: default
 ---
 apiVersion: v1
 kind: Service
@@ -473,7 +473,7 @@ spec:
               - DAC_OVERRIDE
           readOnlyRootFilesystem: true
       nodeSelector:
-        beta.kubernetes.io/os: linux
+        beta.kubernetes.io/os: default
 ---
 apiVersion: v1
 kind: Service
@@ -531,7 +531,7 @@ spec:
           emptyDir:
             medium: Memory
       nodeSelector:
-        beta.kubernetes.io/os: linux
+        beta.kubernetes.io/os: default
 ---
 apiVersion: v1
 kind: Service
@@ -585,7 +585,7 @@ spec:
           emptyDir:
             medium: Memory
       nodeSelector:
-        beta.kubernetes.io/os: linux
+        beta.kubernetes.io/os: default
 ---
 apiVersion: v1
 kind: Service
@@ -634,7 +634,7 @@ spec:
               - NET_BIND_SERVICE
           readOnlyRootFilesystem: true
       nodeSelector:
-        beta.kubernetes.io/os: linux
+        beta.kubernetes.io/os: default
 ---
 apiVersion: v1
 kind: Service
