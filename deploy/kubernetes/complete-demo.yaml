@@ -36,6 +36,7 @@ spec:
             medium: Memory
       nodeSelector:
         beta.kubernetes.io/os: linux
+        nodeName: default
 ---
 apiVersion: v1
 kind: Service
@@ -94,6 +95,7 @@ spec:
             medium: Memory
       nodeSelector:
         beta.kubernetes.io/os: linux
+        nodeName: default
 ---
 apiVersion: v1
 kind: Service
@@ -231,6 +233,7 @@ spec:
           readOnlyRootFilesystem: true
       nodeSelector:
         beta.kubernetes.io/os: linux
+        nodeName: default
 ---
 apiVersion: v1
 kind: Service
@@ -286,6 +289,7 @@ spec:
             medium: Memory
       nodeSelector:
         beta.kubernetes.io/os: linux
+        nodeName: default
 ---
 apiVersion: v1
 kind: Service
@@ -344,6 +348,7 @@ spec:
             medium: Memory
       nodeSelector:
         beta.kubernetes.io/os: linux
+        nodeName: default
 ---
 apiVersion: v1
 kind: Service
@@ -390,6 +395,7 @@ spec:
           readOnlyRootFilesystem: true
       nodeSelector:
         beta.kubernetes.io/os: linux
+        nodeName: default
 ---
 apiVersion: v1
 kind: Service
@@ -427,6 +433,7 @@ spec:
         - containerPort: 80
       nodeSelector:
         beta.kubernetes.io/os: linux
+        nodeName: default
 ---
 apiVersion: v1
 kind: Service
@@ -476,6 +483,7 @@ spec:
           readOnlyRootFilesystem: true
       nodeSelector:
         beta.kubernetes.io/os: linux
+        nodeName: default
 ---
 apiVersion: v1
 kind: Service
@@ -534,6 +542,7 @@ spec:
             medium: Memory
       nodeSelector:
         beta.kubernetes.io/os: linux
+        nodeName: default
 ---
 apiVersion: v1
 kind: Service
@@ -588,6 +597,7 @@ spec:
             medium: Memory
       nodeSelector:
         beta.kubernetes.io/os: linux
+        nodeName: default
 ---
 apiVersion: v1
 kind: Service
@@ -637,6 +647,7 @@ spec:
           readOnlyRootFilesystem: true
       nodeSelector:
         beta.kubernetes.io/os: linux
+        nodeName: default
 ---
 apiVersion: v1
 kind: Service
