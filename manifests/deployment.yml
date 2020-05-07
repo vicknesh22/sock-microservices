@@ -1,0 +1,16 @@
+apiVersion : apps/v1beta1
+kind: Deployment
+metadata:
+  name: "sock"
+spec:
+  replicas: 2
+  template:
+    metadata:
+      labels:
+        app: "sock"
+    spec:
+      containers:
+        - name: "sock"
+          image: "newsock123.azurecr.io/sock"
+          ports:
+          - containerPort: 80
